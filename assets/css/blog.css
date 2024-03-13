@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dbe7c9;
+  background-image: url(images/output-onlinepngtools.png);
+  background-position: center;
+  background-size: cover;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+header {
+  width: 100%;
+}
+h2 {
+  text-align: center;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: transparent;
+  animation: effect 2s linear infinite;
+  font-size: 40px;
+  margin-top: 30px;
+}
+@keyframes effect {
+  0% {
+    background: linear-gradient(green, blue);
+    -webkit-background-clip: text;
+  }
+  50% {
+    background: linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+  }
+  100% {
+    background: linear-gradient(violet, red);
+    -webkit-background-clip: text;
+  }
+}
+.slider-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+.slider {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.slider figure {
+  display: inline-block;
+  margin-right: 20px;
+  white-space: normal;
+  background-color: #dbe7c9;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 2px 8px,
+    rgba(17, 17, 26, 0.1) 0px 4px 12px, rgba(17, 17, 26, 0.1) 0px 8px 24px;
+  border-radius: 25px;
+}
+
+.slider figure img {
+  max-width: 220px;
+  height: 255px;
+  display: block;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+.feedback-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+.feedback1,
+.feedback2,
+.feedback3 {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.customer-img {
+  border-radius: 50px;
+}
+h1 {
+  font-family: "Lato", sans-serif;
+  margin: 10px 0;
+}
+span {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 30px;
+  position: relative;
+  top: -5%;
+}
+#footer {
+  font-size: 13px;
+  font-weight: bold;
+}

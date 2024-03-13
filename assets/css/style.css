@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 10px 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dbe7c9;
+  background-image: url(images/output-onlinepngtools.png);
+  background-position: center;
+  background-size: cover;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+.container2 {
+  display: flex;
+  gap: 100px;
+}
+header {
+  width: 100%;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.left-content {
+  width: 50%;
+}
+.top-right .hover {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 55px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  transition: all 0.5s;
+  color: black;
+  animation: slidetop 0.5s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
+}
+.top-right .hover:hover {
+  scale: 125%;
+  color: #50623a;
+}
+.left-content h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+span {
+  font-weight: bold;
+  color: #50623a;
+}
+.left-content h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.left-content p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.left-content #e-btn {
+  background-color: #50623a;
+  color: whitesmoke;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  margin-right: 500px;
+}
+#l-btn {
+  margin-right: 50px;
+  margin-left: 60px;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  background-color: #50623a;
+  border: none;
+  color: whitesmoke;
+}
+#l-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 12px#50623a;
+}
+#e-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 12px#50623a;
+}
+#footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+#first::first-letter {
+  font-weight: bold;
+  font-size: 24px;
+  color: #50623a;
+}
+.food-1 {
+  height: 270px;
+  width: 270px;
+  position: relative;
+  bottom: -25%;
+  left: 5%;
+  animation: scaleUp 3s ease-in-out infinite;
+}
+
+.food-2 {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: -5%;
+  animation: scaleUp 2s ease-in-out infinite;
+}
+
+.food-3 {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  right: -42%;
+  animation: scaleUp 4s ease-in-out infinite;
+}
+
+/* .dialog {
+  filter: drop-shadow(0px 2px 46px hsla(0, 0%, 0%, 0.4));
+}
+.dialog-1 {
+  position: relative;
+  top: -65%;
+  left: -15%;
+}
+.dialog-2 {
+  position: relative;
+  top: -30%;
+  right: -28%;
+} */
+
+@keyframes scaleUp {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-5px) scale(1.05);
+  }
+}
+
+@keyframes moveUp {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+#f1 {
+  height: 70px;
+  position: relative;
+  top: -15%;
+  right: -45%;
+  background: #50623a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #50623a;
+  animation: scaleUp 3s ease-in-out infinite;
+}
+#f2 {
+  height: 70px;
+  position: relative;
+  top: -15%;
+  right: -50%;
+  background: #50623a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #50623a;
+  animation: scaleUp 2s ease-in-out infinite;
+}
+#f3 {
+  height: 70px;
+  position: relative;
+  top: -15%;
+  right: -55%;
+  background: #50623a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #50623a;
+  animation: scaleUp 3s ease-in-out infinite;
+}
+#f4 {
+  height: 70px;
+  position: relative;
+  top: -15%;
+  right: -60%;
+  background: #50623a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #50623a;
+  animation: scaleUp 2s ease-in-out infinite;
+}
+#f1,
+#f2,
+#f3,
+#f4:hover {
+  cursor: pointer;
+}
+
+@keyframes slidetop {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

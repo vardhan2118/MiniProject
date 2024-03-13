@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="assets/css/bookings.css" />
+    <link rel="icon" href="assets/images/Asset 14@4x.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&family=Raleway&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@700;900&family=Raleway&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">   
+      <header>
+        <div class="container1">
+          <div class="top-left">
+            <a href="index.html"> <img src="assets/images/Asset 14@4x.png" width="420px" height="120px" /></a>
+          </div>
+        </div>
+      </header>
+     <div id="container2">
+      <div class="left-content">
+        <h1>Reserve Table</h1>
+        <form>
+          <label for="fname">First Name<sup>*</sup></label><br>
+          <input type="text" id="fname" name="uname" placeholder="FirstName" required><br>
+          <label for="lname">Last Name</label><br>
+          <input type="text" id="lname" name="lname" placeholder="LastName"><br>
+          <label for="uemail">Email<sup>*</sup></label><br>
+          <input type="email" id="uemail" name="uemail" placeholder="Email" required><br>
+          <label for="mobile">Mobile<sup>*</sup></label><br>
+          <input type="tel" id="mobile" name="mobile" placeholder="Mobile" required><br>
+          <label for="people">No of People<sup>*</sup></label><br>
+          <input type="number" id="people" name="people" placeholder="No of People" required><br>
+          <label for="date">Select Date<sup>*</sup></label><br>
+          <input type="date" id="date" name="date" required><br>
+      </div>
+      <div class="right-content">
+        <label id="t-ele" for="time">Select Time<sup>*</sup></label><br>
+        <select name="time" id="time">
+          <option>--</option>
+          <option>8am</option>
+          <option>9am</option>
+          <option>10am</option>
+          <option>11am</option>
+          <option>12pm</option>
+          <option>1pm</option>
+          <option>2pm</option>
+          <option>3pm</option>
+          <option>4pm</option>
+          <option>5pm</option>
+          <option>6pm</option>
+          <option>7pm</option>
+          <option>8pm</option>
+          <option>9pm</option>
+          <option>10pm</option>
+        </select><br>
+         <label for="occasion"> Select Occasion<sup>*</sup></label><br>
+         <select name="occasion" id="occasion" required>
+          <option>--</option>
+          <option>Meet Up</option>
+          <option>Birthday</option>
+          <option>Anniversary</option>
+          <option>Engagement</option>
+         </select><br>
+         <label for="seating">Seating Preferences<sup>*</sup></label><br>
+         <select name="seating" id="seating" required>
+          <option>--</option>
+          <option>Indoor</option>
+          <option>Outdoor</option>
+         </select><br>
+         <label for="comments">Additional Comments</label><br>
+         <textarea
+              name="comments"
+              id="comments"
+              cols="30"
+              rows="10"
+              placeholder="Additional Comments"
+            ></textarea><br>
+            <small>
+              Note:You cannot edit your reservation after booking.<br>Please double-check details before booking.
+            </small><br>
+            <button type="reset">Clear</button>
+            <button type="submit">Book Table</button>
+        </form>
+      </div>
+      <div class="image">
+        <img src="assets/images/table_reservation.png" height="550px" width="430px">
+      </div>
+     </div>
+     <footer>
+      <p id="footer">&copycopyrights 2024.All Rights Reserved</p>
+     </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbe7c9;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-content img {
+  width: 300px;
+  height: 550px;
+}
+.right-content {
+  height: 100vh;
+  width: 100%;
+  padding-left: 320px;
+  padding-top: 80px;
+}
+.right-logo img {
+  height: 80px;
+  width: 50px;
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+.right-content button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #dbe7c9;
+  border-radius: 15px;
+  margin: 30px;
+}
+.right-content button:hover {
+  cursor: pointer;
+}
+.right-content input {
+  width: 80%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid #50623a;
+  color: #50623a;
+  background-color: #dbe7c9;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+.right-content h1 {
+  margin-left: 100px;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+#s-btn {
+  margin-left: 120px;
+  margin-bottom: 15px;
+  background-color: #789461;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#s-btn:hover {
+  box-shadow: 0 0 10px #50623a;
+}
+.right-content p {
+  margin-left: 160px;
+  color: #789461;
+}
+.right-content #head {
+  margin-left: 35px;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+.right-content a {
+  text-decoration: none;
+  color: #50623a;
+  font-weight: bolder;
+}
+.right-content a:hover {
+  text-decoration: underline;
+}
+.right-content #route {
+  color: black;
+  text-decoration: none;
+}
