@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 #container {
-  background-image: url(images/output-onlinepngtools.png);
+  background-image: url(../images/output-onlinepngtools.png);
   background-size: cover;
   background-position: center;
   width: 100%;
